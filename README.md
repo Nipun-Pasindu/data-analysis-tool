@@ -36,3 +36,28 @@ print(final_ml_df.head())
 
 # 4. View statistical distributions and mixed analytics maps
 inspector.plot_all_associations_heatmap()
+Authors
+e/23/210 - nipunpasindu276@gmail.com
+
+License
+This project is licensed under the MIT License.
+
+---
+
+### How to push this directly to your GitHub Destination Repo
+Open your local terminal inside your workspace directory and execute the following Git initialization and push routines:
+
+```bash
+# Initialize repository
+git init
+
+# Add remote configuration targeting your specific repo link
+git remote add origin https://github.com/Nipun-Pasindu/data-analysis-tool.git
+
+# Stage and commit your new package layouts
+git add .
+git commit -m "Initial commit: Production-ready data analysis tool package architecture"
+
+# Branch configuration and pushing to GitHub
+git branch -M main
+git push -u origin main
